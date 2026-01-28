@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
 //CSS
+import "./styles/stylesheets.css"
 import "./styles/header.css"
 
 createRoot(document.getElementById('root')).render(
