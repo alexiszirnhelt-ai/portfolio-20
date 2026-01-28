@@ -10,6 +10,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 //CSS
 import "./styles/stylesheets.css"
 import "./styles/header.css"
+import "./styles/footer.css"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
