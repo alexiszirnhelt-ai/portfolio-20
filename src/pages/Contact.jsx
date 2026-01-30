@@ -17,26 +17,33 @@ function Contact () {
                 <section className="col-md-6">
                     <h2 className="fw-bold mb-5 border-bottom border-primary border-3 pb-2">Formulaire de contact</h2>
                     <div>
-                        <form action="/action_page.php">
+                        <form action="/action_page.php" className="was-validated">
                             {/* Votre nom */}
                             <div className="mb-2">
-                                <input type="name" className="form-control" id="name" placeholder="Votre nom" name="name"/>
+                                <input type="name" className="form-control" id="name" placeholder="Votre nom" name="name" required/>
+                                <div class="valid-feedback">Nom valide.</div>
+                                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                             </div>
                             {/*Votre adresse email */}
                             <div className="mb-2">
-                                <input type="email" className="form-control" id="email" placeholder="Votre adresse email" name="email"/>
+                                <input type="email" className="form-control" id="email" placeholder="Votre adresse email" name="email" required/>
+                                <div class="valid-feedback">Adresse email valide.</div>
+                                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                             </div>
                             {/*Votre numéro de téléphone */}
                             <div className="mb-2">
-                                <input type="phone" className="form-control" id="phone" placeholder="Votre numéro de téléphone" name="phone"/>
+                                <input type="phone" className="form-control" id="phone" placeholder="Votre numéro de téléphone" name="phone" required/>
+                                <div class="valid-feedback">Numéro de téléphone valide.</div>
+                                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                             </div>
                             {/*sujet */}
                             <div className="mb-2">
-                                <input type="subject" className="form-control" id="subject" placeholder="Sujet" name="subject"/>
+                                <input type="subject" className="form-control" id="subject" placeholder="Sujet" name="subject" required/>
                             </div>
                             {/*Votre message */}
                             <div className="mb-2">
-                                <textarea className="form-control" placeholder="Votre message" name="text" id="comment" rows="11"></textarea>
+                                <textarea className="form-control" placeholder="Votre message" name="text" id="comment" rows="6" required></textarea>
+                                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                             </div>
                             {/*Bouton */}
                             <div className="button-send text-center">
