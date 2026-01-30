@@ -3,7 +3,7 @@ function MentionsLegales () {
         <>
             <section className="container text-center p-5">
                 <h1 className="fw-bold">Mentions légales</h1>
-                <div className="mx-auto mt-4" style={{
+                <div className="mx-auto mt-4 w-75 w-md-80 w-lg-50" style={{
                     height:"5px",
                     width:"500px",
                     backgroundColor:"#0d6efd",

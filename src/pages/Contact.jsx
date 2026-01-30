@@ -4,7 +4,7 @@ function Contact () {
             <section className="container text-center p-5">
                 <h1 className="fw-bold">Contact</h1>
                 <p>Pour me contacter en vue d'un entretion ou d'une future collaboration, merci de remplir le formulaire de contact</p>
-                <div className="mx-auto mt-4" style={{
+                <div className="mx-auto mt-4 w-75 w-md-80 w-lg-50" style={{
                     height:"5px",
                     width:"500px",
                     backgroundColor:"#0d6efd",
