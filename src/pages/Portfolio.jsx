@@ -23,7 +23,7 @@ function Portfolio () {
             {/*card ligne 1*/}
             <div className="d-flex justify-content-center gap-4 mt-4">
                 {/*card 1*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={freshfood} alt="card-img-freshfood"/>
                     <div className="card-body">
                         <h2 className="fw-bold">Fresh Food</h2>
@@ -35,7 +35,7 @@ function Portfolio () {
                     </div>
                 </div>
                 {/*card 2*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={Akira} alt="card-img-restaurant-Akira"/>
                     <div className="card-body">
                         <h2 className="fw-bold">Fresh Food</h2>
@@ -47,7 +47,7 @@ function Portfolio () {
                     </div>
                 </div>
                 {/*card 3*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={BienEtre} alt="card-img-BienEtre"/>
                     <div className="card-body">
                         <h2 className="fw-bold">Espace bien-être</h2>
@@ -64,7 +64,7 @@ function Portfolio () {
             {/*card ligne 2*/}
             <div className="d-flex justify-content-center gap-4 mt-4 mb-5">
                 {/*card 4*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={SEOimg} alt="card-img-SEO"/>
                     <div className="card-body">
                         <h2 className="fw-bold">SEO</h2>
@@ -76,7 +76,7 @@ function Portfolio () {
                     </div>
                 </div>
                 {/*card 5*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={APIimg} alt="card-img-API"/>
                     <div className="card-body">
                         <h2 className="fw-bold">Création d'une API</h2>
@@ -88,7 +88,7 @@ function Portfolio () {
                     </div>
                 </div>
                 {/*card 6*/}
-                <div className="card text-center" style={{width:"400px"}}>
+                <div className="card text-center hover-effect" style={{width:"400px"}}>
                     <img src={maquette} alt="card-img-desk-pc"/>
                     <div className="card-body">
                         <h2 className="fw-bold">Maquette d'un site web</h2>
@@ -101,6 +101,11 @@ function Portfolio () {
                 </div>
             {/* ----- */}
             </div>
+            <style jsx>{`
+                .hover-effect:hover {
+                background-color: #efefef;
+                }
+            `}</style>
         </>
     )
 }

@@ -28,11 +28,6 @@ function Services () {
                         </div>
                     </div>
                 </div>
-                <style jsx>{`
-                    .hover-effect:hover {
-                        background-color: #efefef;
-                    }
-                `}</style>
                 {/* card Dévelopement web*/}
                 <div className="card shadow-sm hover-effect" style={{width:"400px"}}>
                     <div className="card-content text-center">
@@ -45,11 +40,6 @@ function Services () {
                         </div>
                     </div>
                 </div>
-                <style jsx>{`
-                    .hover-effect:hover {
-                        background-color: #efefef;
-                    }
-                `}</style>
                 {/* card Réferencement*/}
                 <div className="card shadow-sm hover-effect" style={{width:"400px"}}>
                     <div className="card-content text-center">
@@ -62,13 +52,13 @@ function Services () {
                         </div>
                     </div>
                 </div>
-                <style jsx>{`
-                    .hover-effect:hover {
-                        background-color: #efefef;
-                    }
-                `}</style>
             {/* ----- */}
             </div>
+            <style jsx>{`
+                .hover-effect:hover {
+                background-color: #efefef;
+                }
+            `}</style>
         </>
     )
 }
