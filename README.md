@@ -15,7 +15,7 @@ Il présente les compétences, services et réalisations de **John Doe**, un dé
 ---
 
 ## Prérequis
-Pour exécuter ce projet localement, vous aurez besoin de :
+Pour exécuter ce projet localement :
 - **Node.js** (version recommandée)
 - **npm** (inclus avec Node.js)
 - Un navigateur moderne (Chrome, Firefox, Edge)
@@ -30,28 +30,32 @@ Pour exécuter ce projet localement, vous aurez besoin de :
 # Structure du projet
 
 src/
-├── assets/          # Images et médias (flaticon, photos, etc.)
-├── components/      # Composants réutilisables
-│   ├── Header.jsx   # Barre de navigation
-│   └── Footer.jsx   # Pied de page
-├── layout/          # Structure globale
-│   └── Layout.jsx   # Conteneur avec React Router
-├── pages/           # Pages principales
-│   ├── Home.jsx     # Page d'accueil
-│   ├── Services.jsx # Page services
-│   ├── Portfolio.jsx# Page réalisations
-│   ├── Contact.jsx  # Page contact
-│   └── Legal.jsx    # Mentions légales
-├── styles/          # Fichiers CSS
-│   ├── header.css   # Styles demandés par CEF      
-│   ├── footer.css   # Styles demandés par CEF
-│   └── stylessheets.css # styles police
-├── App.jsx          # Routing principal
-└── main.jsx         # Point d'entrée React
-
+|-- assets/
+|-- components/
+|   - Header.jsx
+|   - Footer.jsx
+|-- layout/
+|   - Layout.jsx
+|-- pages/
+|   - Home.jsx
+|   - Services.jsx
+|   - Portfolio.jsx
+|   - Contact.jsx
+|   - MentionsLegales.jsx
+|-- styles/
+|   - footer.css
+|   - header.css
+|   - Stylesheets.css
+|-- App.jsx
+|-- main.jsx
 
 ---
 
+
+# Validation
+
+- Validation W3C
+- Validation JSX Validator
 
 # Ressources externes
 
