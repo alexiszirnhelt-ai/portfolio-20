@@ -20,7 +20,7 @@ function Home () {
                 <div className="container shadow border-0 p-4 row g-4 mx-auto">
                     {/*About*/}
                     <div className="col-12 col-lg-6">
-                        <h3 className="mb-5 border-bottom border-primary border-3 pb-2">A propos</h3>
+                        <h3 className="mb-5 border-bottom border-primary border-3 pb-2 fw-bold">A propos</h3>
                         <img src={aboutImg} alt="John Doe Profile" className="img-fluid w-100 mb-3"/>
                         <p className="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?</p>
                         <p className="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus consectetur tempore perferendis nostrum, ex delectus reiciendis impedit aut iure enim placeat? Natus, neque at?</p>
@@ -28,7 +28,7 @@ function Home () {
                     </div>
                     {/* Skills */}
                     <div className="col-12 col-lg-6">
-                        <h3 className="mb-5 border-bottom border-primary border-3 pb-2">Mes compétences</h3>
+                        <h3 className="mb-5 border-bottom border-primary border-3 pb-2 fw-bold">Mes compétences</h3>
                         <div className="mb-4">
                             <h4 className="fs-5">HTML5 90%</h4>
                             <div className="progress">
