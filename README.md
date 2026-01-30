@@ -30,24 +30,14 @@ Pour exécuter ce projet localement :
 # Structure du projet
 
 src/
-|-- assets/
-|-- components/
-|   - Header.jsx
-|   - Footer.jsx
-|-- layout/
-|   - Layout.jsx
-|-- pages/
-|   - Home.jsx
-|   - Services.jsx
-|   - Portfolio.jsx
-|   - Contact.jsx
-|   - MentionsLegales.jsx
-|-- styles/
-|   - footer.css
-|   - header.css
-|   - Stylesheets.css
-|-- App.jsx
-|-- main.jsx
+- asset/
+- components/
+- layout/
+- pages/
+- styles/
+- App.jsx
+- main.jsx
+
 
 ---
 
@@ -57,6 +47,10 @@ src/
 - Validation W3C
 - Validation JSX Validator
 
+
+---
+
+
 # Ressources externes
 
 Élément : Icônes, Favicon, Images et Police Nunito
@@ -64,9 +58,15 @@ src/
 Source : Bootstrap icons, Flaticon, images envoyés par CEF, Google Fonts
 
 
+---
+
+
 # Contact
 
 John Doe : john.doe@gmail.com (adresse fictive pour le projet)
+
+
+---
 
 
 # Mentions légales
