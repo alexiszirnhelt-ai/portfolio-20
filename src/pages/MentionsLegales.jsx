@@ -11,7 +11,7 @@ function MentionsLegales () {
             </section>
 
             {/*Accordeon*/}
-            <div id="accordion" className="container">
+            <div id="accordion" className="container my-5">
                 {/*Accordeon 1*/}
                 <div className="card">
                     <div className="card-header card-header-hover">
