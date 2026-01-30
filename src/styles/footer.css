@@ -1,5 +1,5 @@
 .footer-social_link {
-    color: grey;
+    color: #6c757d;
     transition: color 0.3s ease;
 }
 
@@ -11,6 +11,7 @@
 .list-nav{
     text-decoration: none;
     color: white;
+    transition: color 0.3s ease;
 }
 .list-nav:hover {
     font-weight: bold;
